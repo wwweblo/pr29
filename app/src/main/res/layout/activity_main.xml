@@ -12,6 +12,7 @@
         android:text="Открыть камеру"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
+
     <Button
         android:id="@+id/btnOpenBrowser"
         android:layout_width="wrap_content"
@@ -21,4 +22,21 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 
+    <Button
+        android:id="@+id/btnOpenPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть телефон"
+        android:layout_below="@id/btnOpenBrowser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnOpenMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть карты"
+        android:layout_below="@id/btnOpenPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
 </RelativeLayout>
